@@ -17,26 +17,46 @@ export default function Home() {
           <p className='p1'>Lugar do fluir das águas</p>
         </figure>
         <nav className='navegacao'>
-
+        <Link className='hall' href='/pages/sobre'>
+          <figure className='FiguraHall'>
+            <Image src='/images/igreja.png' width={36} height={36} /> 
+              <figcaption>Sobre Nós</figcaption>              
+            </figure>
+          </Link>
+          <Link href='/pages/endereco' className='hall'>
+          <figure className='FiguraHall'>
+            <Image src='/images/map.png' width={36} height={36} /> 
+              <figcaption>Endereço</figcaption>              
+            </figure>
+        
+          </Link>
           <Link className='hall' href='/pages/agenda'>
-            <p>Agenda</p>
+           <figure className='FiguraHall'>
+            <Image src='/images/agenda.png' width={36} height={36} /> 
+              <figcaption>Agenda</figcaption>              
+            </figure>
           </Link>
 
           <Link className='hall' href='/pages/redes'>
-            <p> Nossas Redes</p>
+          <figure className='FiguraHall'>
+            <Image src='/images/rede.png' width={36} height={36} /> 
+              <figcaption>Nossas redes</figcaption>              
+            </figure>
           </Link>
-          <Link href='/pages/endereco' className='hall'>
-            <p> Endereço</p>
-          </Link>
+       
 
           <a className='hall'>
-            <p> Ultimos Eventos</p>
+          <figure className='FiguraHall'>
+            <Image src='/images/foto.png' width={36} height={36} /> 
+              <figcaption>Nossas Fotos</figcaption>              
+            </figure>
           </a>
-          <Link className='hall' href='/pages/sobre'>
-            <p> Sobre</p>
-          </Link>
           <a className='hall'
-          > Oferta
+          > 
+          <figure className='FiguraHall'>
+            <Image src='/images/oferta.png' width={36} height={36} /> 
+              <figcaption>Oferta</figcaption>              
+            </figure>
           </a>
         </nav>
       </main>

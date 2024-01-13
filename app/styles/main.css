@@ -24,10 +24,11 @@ background: linear-gradient(180deg, rgba(216,222,235,1) 0%, rgb(62, 101, 159) 10
         .Images{
             border-radius: 50%;
            margin-top:15px ;
-           border: solid rgb(0,0,26);
-        
-        }
+           border: solid black;
+            box-shadow: 3px 3px 3px 3px black;
 
+        }
+       
         .Figura{
             width: 70vw;
             display: flex;
@@ -87,7 +88,6 @@ background: linear-gradient(180deg, rgba(216,222,235,1) 0%, rgb(62, 101, 159) 10
   text-decoration-thickness: auto;
   width: 70%;
   max-width: 460px;
-  position: relative;
   cursor: pointer;
   user-select: none;
   -webkit-user-select: none;
@@ -114,14 +114,12 @@ background: linear-gradient(180deg, rgba(216,222,235,1) 0%, rgb(62, 101, 159) 10
   left: 2px;
 }
 
-.hall:active{
-    transition: 100ms;
-    background-color: #fff;
-    color: black;
-}
+
 }
 
-
-
-
-
+.FiguraHall{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
