@@ -1,95 +1,37 @@
+import React from 'react'
 import Image from 'next/image'
-import styles from './page.module.css'
-
+import Link from 'next/link'
+import styles from './styles/main.css'
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <>
+    <main className='corpo'>
+   
+      <figure className='Figura'>
+       <Image className='Images' src='/images/logo1.jpg' width={200} height={200} alt='Logo Bethesda' />
+      <p ><a  className='link' href='https://www.instagram.com/bethesdasjm/'> @bethesdasjm</a></p>
+       <p className='p1'>Lugar do fluir das águas</p>
+       </figure>
+      <nav className='navegacao'>
+      
+       <Link className='hall' href='/pages/agenda'>
+        <figure style={{display:'flex', alignItems:'center', justifyContent:"start", width:'100%', gap:'60px'}}>
+        <Image src='/images/agenda.png' width={32} height={32} alt='agenda' />
+        <figcaption>Agenda</figcaption>
+        </figure>
+       </Link>
+     
+       <Link className='hall' href='/pages/redes'><p> Nossas Redes</p></Link>
+       <Link href='/pages/endereco' className='hall'><p> Endereço</p></Link>
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+       <a className='hall'><p> Ultimos Eventos</p></a>
+       <Link className='hall' href='/pages/sobre'><p> Sobre</p></Link>
+       <Link className='hall' href='/pages/agenda'><p> Contatos</p></Link>
+              <h1>Faça uma oferta</h1>
+       <Link className='hall' href='/pages/agenda'><p> Oferta</p></Link>
+       </nav>
     </main>
+
+    </>
   )
 }
