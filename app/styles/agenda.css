@@ -1,0 +1,65 @@
+.titulo-agenda{
+    width: 100%;
+    height: 13vh;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../public/images/mab.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 43%;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artigo{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.ano{
+    font-size: 2rem;
+    color: white;
+    background-color: #163E7C;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+.agenda-section {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    width: 100%;
+    margin: 20px;
+    height: 100%;
+    overflow-y: auto;
+  }
+
+  h2 {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+
+  }
+
+  .event-list {
+    list-style-type: none;
+  
+  }
+
+  .event-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+  }
+
+  .event-list li:last-child {
+    border-bottom: none;
+  }

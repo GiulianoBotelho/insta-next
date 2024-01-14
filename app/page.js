@@ -19,42 +19,41 @@ export default function Home() {
         <nav className='navegacao'>
         <Link className='hall' href='/pages/sobre'>
           <figure className='FiguraHall'>
-            <Image src='/images/igreja.png' width={36} height={36} /> 
+            <Image src='/images/igreja.png' width={36} height={36} alt='igreja' /> 
               <figcaption>Sobre Nós</figcaption>              
             </figure>
           </Link>
           <Link href='/pages/endereco' className='hall'>
           <figure className='FiguraHall'>
-            <Image src='/images/map.png' width={36} height={36} /> 
+            <Image src='/images/map.png' width={36} height={36}  alt='mapa'/> 
               <figcaption>Endereço</figcaption>              
             </figure>
         
           </Link>
           <Link className='hall' href='/pages/agenda'>
            <figure className='FiguraHall'>
-            <Image src='/images/agenda.png' width={36} height={36} /> 
+            <Image src='/images/agenda.png' width={36} height={36} alt='agenda' /> 
               <figcaption>Agenda</figcaption>              
             </figure>
           </Link>
 
           <Link className='hall' href='/pages/redes'>
           <figure className='FiguraHall'>
-            <Image src='/images/rede.png' width={36} height={36} /> 
+            <Image src='/images/rede.png' width={36} height={36} alt='rede' /> 
               <figcaption>Nossas redes</figcaption>              
             </figure>
           </Link>
        
-
           <a className='hall'>
           <figure className='FiguraHall'>
-            <Image src='/images/foto.png' width={36} height={36} /> 
+            <Image src='/images/foto.png' width={36} height={36} alt='foto' /> 
               <figcaption>Nossas Fotos</figcaption>              
             </figure>
           </a>
           <a className='hall'
           > 
           <figure className='FiguraHall'>
-            <Image src='/images/oferta.png' width={36} height={36} /> 
+            <Image src='/images/oferta.png' width={36} height={36} alt='oferta' /> 
               <figcaption>Oferta</figcaption>              
             </figure>
           </a>
