@@ -37,14 +37,14 @@ export default function Home() {
             </figure>
           </Link>
 
-          <Link className='hall' href='/pages/redes'>
+          <Link className='hall' href='/pages/celulas'>
           <figure className='FiguraHall'>
             <Image src='/images/rede.png' width={36} height={36} alt='rede' /> 
-              <figcaption>Nossas redes</figcaption>              
+              <figcaption>Células</figcaption>              
             </figure>
           </Link>
        
-          <a className='hall'>
+          <a className='hall' href='https://bit.ly/3tVSmyL'>
           <figure className='FiguraHall'>
             <Image src='/images/foto.png' width={36} height={36} alt='foto' /> 
               <figcaption>Nossas Fotos</figcaption>              

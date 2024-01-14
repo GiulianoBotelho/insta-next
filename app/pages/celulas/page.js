@@ -5,7 +5,7 @@ export default function Redes() {
   return (
     <main className='corpo'>
         <h3> <Link href='/'> Voltar</Link></h3>
-        Redes
+        Células
         </main>
   )
 }

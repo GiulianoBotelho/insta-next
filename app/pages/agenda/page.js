@@ -1,13 +1,16 @@
 import React from 'react';
 import Link from 'next/link';
 import '../../styles/agenda.css'
+import Image from 'next/image'
 export default function Agenda() {
 
   return (
-    <main className="corpo">
-        <article className='artigo'>
-        <h1 className='titulo-agenda'>Agenda Bethesda</h1>
-        <h2 className='ano'>2024</h2>
+    <main>
+        <article className='titulo-agenda'>
+          
+        <h1>Agenda Bethesda</h1>
+        <h2 className='ano'>2 0 2 4</h2>
+        <h3>...Nem por força, nem por violência, mas pelo meu Espírito, diz o SENHOR dos Exercítos. Zacarias 4:6</h3>
         </article>
 
         <section className="agenda-section">
@@ -23,6 +26,9 @@ export default function Agenda() {
         <li>dia 25 (domingo): Culto - 8h</li>
         <li>dia 28 (quarta-feira): Rede da Família - 19h30</li>
       </ul>
+  <Link href='/'>   
+    <Image src='/images/voltar.png' width={28} height={28}/>
+  </Link>
   </section>
     </main>
   );
