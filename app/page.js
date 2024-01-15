@@ -50,13 +50,13 @@ export default function Home() {
               <figcaption>Nossas Fotos</figcaption>              
             </figure>
           </a>
-          <a className='hall'
+          <Link href='/pages/oferta' className='hall'
           > 
           <figure className='FiguraHall'>
             <Image src='/images/oferta.png' width={36} height={36} alt='oferta' /> 
               <figcaption>Oferta</figcaption>              
             </figure>
-          </a>
+          </Link>
         </nav>
       </main>
 

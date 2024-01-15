@@ -1,0 +1,10 @@
+.background-titulo{
+    background-color: #024673;
+    color: #fff;    
+    border-bottom: solid 3px #002945;
+    width: 100%;
+}
+.celula-titulo{
+    font-size: 1.5rem;
+    text-align: center;
+}

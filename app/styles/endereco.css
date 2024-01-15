@@ -1,0 +1,11 @@
+.endereco{
+    border: solid 1px;
+}
+
+.titulo-endereco{
+    background-color: #024673;
+    color: #fff;
+    padding: 10px;
+    border-bottom: solid 3px #002945;
+
+}

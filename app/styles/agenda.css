@@ -23,9 +23,8 @@
 
 .ano{
  background-color: transparent;
- color: goldenrod;
- text-decoration-line: underline;
-opacity: 0.3;
+ color: #024673;
+opacity: 0.8;
 font-size: 3rem;
 border-bottom: transparent;
  
@@ -41,10 +40,10 @@ border-bottom: transparent;
   }
 
   h2 {
-    background-color: #3498db;
+    background-color: #024673;
     color: #fff;
     padding: 10px;
-    border-bottom: solid 3px #0369ae;
+    border-bottom: solid 3px #002945;
 
   }
 
@@ -56,6 +55,7 @@ border-bottom: transparent;
   .event-list li {
     border-bottom: 1px solid #ddd;
     padding: 10px;
+    font-size: 1.2rem;
   }
 
   .event-list li:last-child {
