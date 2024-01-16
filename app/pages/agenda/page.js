@@ -16,15 +16,15 @@ export default function Agenda() {
         <section className="agenda-section">
       <h2>FEVEREIRO</h2>
       <ul className="event-list">
-        <li>dia 4: Santa Ceia - 8h</li>
-        <li>dia 7: Rede de Mulheres - 19h30</li>
-        <li>dia 11: Culto - 8h</li>
-        <li>dia 14: Rede de Homens - 19h30</li>
-        <li>dia 17: Bazar + Almoço + Rede Jump - 9h | 12h | 19h</li>
-        <li>dia 18: Culto - 8h</li>
-        <li>dia 21: Rede de Casais - 19h30</li>
-        <li>dia 25: Culto - 8h</li>
-        <li>dia 28D: Rede da Família - 19h30</li>
+        <li>Dia 4: Santa Ceia - 8h</li>
+        <li>Dia 7: Rede de Mulheres - 19h30</li>
+        <li>Dia 11: Culto - 8h</li>
+        <li>Dia 14: Rede de Homens - 19h30</li>
+        <li>Dia 17: Bazar + Almoço + Rede Jump - 9h | 12h | 19h</li>
+        <li>Dia 18: Culto - 8h</li>
+        <li>Dia 21: Rede de Casais - 19h30</li>
+        <li>Dia 25: Culto - 8h</li>
+        <li>Dia 28: Rede da Família - 19h30</li>
       </ul>
   <Link href='/'>   
     <Image src='/images/voltar.png' width={28} height={28}/>

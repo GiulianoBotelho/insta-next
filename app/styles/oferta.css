@@ -3,6 +3,7 @@
     color: #fff;    
     border-bottom: solid 3px #002945;
     height: 6vh;
+    width: 100%;
 }
 .oferta-titulo{
     text-align: center;
