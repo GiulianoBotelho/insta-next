@@ -1,3 +1,104 @@
+.corpo{ width: 100vw;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 6vh;
+    background: rgb(216,222,235);
+background: linear-gradient(180deg, rgba(216,222,235,1) 0%, rgb(62, 101, 159) 100%, rgba(255,255,255,1) 300%);
+    overflow-y: auto;
+
+}
+.link {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.p1{
+    font-weight: 600;
+}
+
+    .Images{
+        border-radius: 50%;
+       margin-top:15px ;
+       border: solid black;
+        box-shadow: 3px 3px 3px 3px black;
+
+    }
+   
+    .Figura{
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .navegacao{
+        display: flex;
+        width: 99vw;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hall {
+        background-color: #000;
+        border: 0 solid #E5E7EB;
+        box-sizing: border-box;
+        color: #fff;
+        display: flex;
+        font-size: 1rem;
+        font-weight: 700;
+        justify-content: center;
+        line-height: 1.75rem;
+        padding: .75rem 1.65rem;
+        position: relative;
+        text-align: center;
+        text-decoration: none #000000 solid;
+        text-decoration-thickness: auto;
+        width: 70%;
+        max-width: 460px;
+        cursor: pointer;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        transition: 350ms;
+      }
+      
+      .hall:focus {
+        outline: 0;
+      }
+      
+      .hall:after {
+        content: '';
+        position: absolute;
+        border: 1px solid #000000;
+        bottom: 4px;
+        left: 4px;
+        width: calc(100% - 1px);
+        height: calc(100% - 1px);
+      }
+      
+      .hall:hover:after {
+        bottom: 2px;
+        left: 2px;
+      }
+      
+    
+      
+      .FiguraHall{
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+      }
+
 @media (max-width:600px){
     .corpo{ width: 100vw;
         height: 100vh;
@@ -48,36 +149,14 @@ background: linear-gradient(180deg, rgba(216,222,235,1) 0%, rgb(62, 101, 159) 10
             flex-wrap: wrap;
             gap: 40px;
         }
-        /* .hall{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            border: solid black;
-            width: 60vw;
-            height: 5vh;
-            transition: 350ms;
-            border-radius: 20px;
-
-        }
-        .hall:active{
-            transition: 350ms;
-            background-color: black;
-            color: aliceblue;
-            border: solid aliceblue;
-        } */
-        
-
-/* CSS */
 
 
-/* CSS */
 .hall {
   background-color: #000;
   border: 0 solid #E5E7EB;
   box-sizing: border-box;
   color: #fff;
   display: flex;
-  /* font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
   font-size: 1rem;
   font-weight: 700;
   justify-content: center;

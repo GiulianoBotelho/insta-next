@@ -33,7 +33,7 @@ border-bottom: transparent;
 
 .agenda-section {
     background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     width: 100vw;
     height: 90vh;
     overflow-y: auto;

@@ -27,7 +27,7 @@ export default function Agenda() {
         <li>Dia 28: Rede da Família - 19h30</li>
       </ul>
   <Link href='/'>   
-    <Image src='/images/voltar.png' width={28} height={28}/>
+    <Image className='back' src='/images/voltar.png' width={28} height={28}/>
   </Link>
   </section>
     </main>
