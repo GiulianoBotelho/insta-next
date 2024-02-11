@@ -6,11 +6,34 @@ import Image from 'next/image'
 export default function Redes() {
   return (
     <main className='corpo'>
+<section className='lista-lideres'>
         
         <div className='background-titulo'>
-        <h1 className='celula-titulo'>Células de Evangelismo</h1>
-        </div>
-        <Link href='/'> <Image className='back' src='/images/voltar.png' width={20} height={20} alt='Voltar' /> </Link>
+       <h1 className='celula-titulo'>Células de Evangelismo</h1>
+       </div>
+<h2>TERÇA-FEIRA</h2>
+<ul className="lista">
+  <li>Larissa</li>
+  <li>Danilo</li>
+  <li>Thuanny</li>
+  <li>Samara</li>
+  <li>Valéria</li>
+  <li>Solimá</li>
+</ul>
+
+<h2>QUINTA-FEIRA</h2>
+<ul className="lista">
+  <li>Richard</li>
+</ul>
+
+<h2>SEXTA-FEIRA</h2>
+<ul className="lista">
+  <li>Ana</li>
+  <li>Igor e Esther</li>
+  <li>Roberto</li>
+</ul>
+
+</section>
         </main>
   )
 }

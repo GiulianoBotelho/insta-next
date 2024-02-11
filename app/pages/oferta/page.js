@@ -9,7 +9,6 @@ export default function Oferta() {
         <div className='background-titulo'>
         <h1 className='oferta-titulo'>Faça uma oferta, abençoe o Reino</h1>
         </div>
-        <Link href='/'><Image className='back' src='/images/voltar.png' width={20} height={20} alt='Voltar' /></Link>
     </main>
     </>
   )

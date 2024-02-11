@@ -2,23 +2,38 @@
     background-color: #024673;
     color: #fff;    
     border-bottom: solid 3px #002945;
-    width: 100%;
 }
 .celula-titulo{
     font-size: 1.5rem;
     text-align: center;
+    height: 6vh;
 }
 
-.back{
-    position: fixed;
-    bottom: 0%;
-    left: 0%;
-    width: 50px;
-     height: 50px;
-   }
+.lista-lideres{
+  background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+.lista{
+  list-style-type: none;
+  
+  
+}
+.lista li{
+  border-bottom: 1px solid #ddd;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+.lista li:last-child{
+  border-bottom: none;
+}
+h2{
+  background-color: #024673;
+  color: #fff;
+  border-bottom: solid 3px #002945;
+}
+
  
-   @media (max-width:600px){
-     .back{
-       visibility: hidden;
-     }
-   }
+ 

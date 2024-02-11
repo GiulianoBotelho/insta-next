@@ -26,9 +26,6 @@ export default function Mapa() {
                     allowfullscreen=""
                     loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
-                <Link href='/'>
-                <Image className='back' src='/images/voltar.png' width={20} height={20} alt='Voltar' />
-                </Link>
             </section>
         </main>
     )

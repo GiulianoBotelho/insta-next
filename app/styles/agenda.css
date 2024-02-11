@@ -1,5 +1,5 @@
 .titulo-agenda{
-    width: 100vw;
+    width: 100%;
     height: 28vh;
     opacity: 0.9;
     color: #fff;
@@ -34,9 +34,9 @@ border-bottom: transparent;
 .agenda-section {
     background-color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 100vw;
+    width: 100%;
     height: 90vh;
-    overflow-y: auto;
+    text-align: center;
   }
 
   h2 {
@@ -67,17 +67,11 @@ border-bottom: transparent;
    
   }
 
- .back{
-   position: fixed;
-   bottom: 0%;
-   left: 0%;
-   width: 50px;
-    height: 50px;
-  }
 
-  @media (max-width:600px){
-    .back{
-      visibility: hidden;
-    }
-  }
 
+
+@media (max-width:600px){
+  .event-list {
+    padding-bottom: 20px;
+  }
+}

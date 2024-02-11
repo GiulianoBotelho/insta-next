@@ -203,3 +203,9 @@ background: linear-gradient(180deg, rgba(216,222,235,1) 0%, rgb(62, 101, 159) 10
     align-items: center;
     justify-content: space-between;
 }
+
+@media (max-width:600px){
+    .corpo{
+        padding-bottom: 50px;
+    }
+}
