@@ -24,15 +24,17 @@
 .lista li{
   border-bottom: 1px solid #ddd;
     padding: 10px;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
 }
+
 .lista li:last-child{
-  border-bottom: none;
+  border: none;
 }
-h2{
+.titulo-lista{
   background-color: #024673;
   color: #fff;
   border-bottom: solid 3px #002945;
+  font-size: 1.2rem;
 }
 
  

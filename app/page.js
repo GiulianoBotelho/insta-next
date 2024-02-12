@@ -60,11 +60,11 @@ export default function Home({modal, setModal}) {
         </nav>
           { isOpen && <section className='oferta'>
               <div> <button onClick={()=>setIsOpen(false)}>X</button>
-              <h2>Chave Pix:</h2>
-              <p>(21) 9 7431-7602</p>
-              <p>Comunidade Evangélica Peniel Resgatando Vidas</p>
+              <pre>Chave Pix:</pre>
+              <pre>(21) 9 7431-7602</pre>
+              <pre>Comunidade Evangélica Peniel</pre>
 
-              <p>Banco Bradesco</p>
+              <pre>Banco Bradesco</pre>
               </div>
              
             </section>}

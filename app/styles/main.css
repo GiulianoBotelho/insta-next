@@ -223,7 +223,7 @@ background: linear-gradient(180deg, rgba(216,222,235,1) 0%, rgb(62, 101, 159) 10
 
 .oferta div{
     background-color: rgb(1000,1000,1000, 0.9);
-    width: 50%;
+    width: 60%;
     height: 35%;
     transition: 500ms;
 }
@@ -243,6 +243,3 @@ background: linear-gradient(180deg, rgba(216,222,235,1) 0%, rgb(62, 101, 159) 10
     background-color: red;
 }
 
-.oferta div p{
-    padding: 6px;
-}
