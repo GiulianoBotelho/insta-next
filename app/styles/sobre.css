@@ -66,24 +66,19 @@ border-bottom: transparent;
    
   }
 
-section p{
-  margin-left: 15%;
-  margin-top: 50px;
-  font-size: 1.5rem;
-  text-align: center;
-  width: 68vw;
-  height: 15vh;
+
+.texto{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
 }
 
-@media (max-width:600px){
-  section{
-    width: 100%;
-  }
-  section p{
-      height: 100%;
-      text-align: start;
-      font-weight: bold;
-      padding-bottom: 50px;
-      
-  }
+.texto p {
+  width: 100vw;
+  height: 37vh;
+  font-size: 1rem;
+ 
 }
