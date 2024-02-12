@@ -19,7 +19,7 @@ export default function Modal() {
               <h1>Endereço</h1>
               <button style={{ width:'6vw',position:'relative', bottom:'12.5%', left:'89%', borderBottomLeftRadius:'25%'}} onClick={()=> setModal(false)}>X</button>
               <p>Avenida Tancredo Neves 1735 / Rua Dona Jove 74 Tomazinho</p>
-              <p>ou <a href='https://www.google.com/maps/@-22.8030526,-43.3937667,3a,89.3y,249.6h,82.23t/data=!3m6!1e1!3m4!1sbZ1kj_TdyAzH86FuvjOJVg!2e0!7i16384!8i8192?entry=ttu'>Clique aqui</a></p>
+              <p>ou <a href='https://www.google.com/maps/dir/-22.8102856,-43.3777264/Av.+Presidente+Tancredo+Neves,+1735+-+Tomazinho,+S%C3%A3o+Jo%C3%A3o+de+Meriti+-+RJ,+25576-060/@-22.8067861,-43.395457,15z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x996411bad7b985:0x552d77309e5660e!2m2!1d-43.3938875!2d-22.8030922?entry=ttu'>Clique aqui</a></p>
             </div> }
            
     </>
