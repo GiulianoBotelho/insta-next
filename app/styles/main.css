@@ -209,3 +209,40 @@ background: linear-gradient(180deg, rgba(216,222,235,1) 0%, rgb(62, 101, 159) 10
         padding-bottom: 50px;
     }
 }
+
+.oferta{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    background-color: rgb(0,0,0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 500ms;
+}
+
+.oferta div{
+    background-color: rgb(1000,1000,1000, 0.9);
+    width: 50%;
+    height: 35%;
+    transition: 500ms;
+}
+
+.oferta div button{
+  width: 6vw;
+    position: relative;
+    left: 89%;
+    transition: 500ms;
+    font-size: 1rem;
+    border: solid 1px;
+    border-bottom-left-radius: 25%;
+}
+
+.oferta div button:hover{
+    transition: 300ms;
+    background-color: red;
+}
+
+.oferta div p{
+    padding: 6px;
+}
