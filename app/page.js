@@ -6,11 +6,12 @@ import styles from './styles/main.css'
 import Modal from './components/modal'
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
-  const [isLoading, setIsLoading] = useState(true)
   const [modal, setModal] = useState(false)
     useEffect(() =>{ 
       const time = setTimeout(() =>{setModal(true)}, 2000)
   
+    
+    
     },[])
 
 
@@ -18,7 +19,7 @@ export default function Home() {
     <>
  
       <main className='corpo'>
-        {modal && <Modal setModal={setModal}/>}
+        {/* {modal && <Modal setModal={setModal}/>} */}
         <figure className='Figura'>
           <Image className='Images' src='/images/logo1.jpg' width={200} height={200} alt='Logo Bethesda' />
         <figure> 
