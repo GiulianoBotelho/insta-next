@@ -32,21 +32,12 @@ export default function Agenda() {
           <li>Dia 15: Rede de Casais - 19h30</li>
           <li>Dia 16: RDJ - 19h</li>
           <li>Dia 22: Rede de Família - 19h30</li>
-          <li>Dia 29/30/31: Niver da Igreja</li>
-          <ul>
-            <li>Dia 29: Vereda</li>
-            <li>Dia 30: Ap Washington + Igor Lins</li>
-            <li>Dia 31: Bethesda, à noite</li>
-          </ul>
+          <li>Dia 29/30/31: Aniversário da Igreja</li>
         </ul>
 
         <h2>Abril</h2>
         <ul className="event-list">
           <li>Dia 5/6: Pessach</li>
-          <ul>
-            <li>Dia 5: Montaremos a mesa, sentados</li>
-            <li>Dia 6: Festa</li>
-          </ul>
           <li>Dia 12/13/14: Encontro Jump</li>
           <li>Dia 12: Rede de Mulheres</li>
           <li>Dia 20: RDJ - 19h</li>

@@ -1,14 +1,17 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './styles/main.css'
 import Modal from './components/modal'
-export default function Home({modal, setModal}) {
+export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
+    useEffect(() =>{ setIsLoading(false)},[])
 
   return (
     <>
+  {isLoading? (<div className='loader'></div>): (
       <main className='corpo'>
      
         <figure className='Figura'>
@@ -29,7 +32,12 @@ export default function Home({modal, setModal}) {
               <figcaption>Sobre Nós</figcaption>              
             </figure>
           </Link>
-          <Modal/>
+          <Link href='/pages/endereco' className='hall'>
+          <figure className='FiguraHall'>
+            <Image src='/images/map.png' width={36} height={36}  alt='mapa'/> 
+              <figcaption>Endereço</figcaption>              
+            </figure>
+            </Link>
           <Link className='hall' href='/pages/agenda'>
            <figure className='FiguraHall'>
             <Image src='/images/agenda.png' width={36} height={36} alt='agenda' /> 
@@ -50,26 +58,17 @@ export default function Home({modal, setModal}) {
               <figcaption>Nossas Fotos</figcaption>              
             </figure>
           </a>
-          <div onClick={()=> setIsOpen(true)} href='/pages/oferta' className='hall'
+          <Link href='/pages/oferta' className='hall'
           > 
           <figure className='FiguraHall'>
             <Image src='/images/oferta.png' width={36} height={36} alt='oferta' /> 
               <figcaption>Oferta</figcaption>              
             </figure>
-          </div>
+          </Link>
         </nav>
-          { isOpen && <section className='oferta'>
-              <div> <button onClick={()=>setIsOpen(false)}>X</button>
-              <pre>Chave Pix:</pre>
-              <pre>(21) 9 7431-7602</pre>
-              <pre>Comunidade Evangélica Peniel</pre>
-
-              <pre>Banco Bradesco</pre>
-              </div>
-             
-            </section>}
+          
       </main>
-
+)}
     </>
   )
 }

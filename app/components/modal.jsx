@@ -8,12 +8,7 @@ export default function Modal() {
   return (
     <> 
  
-            <a onClick={()=> setModal(true)} className='hall'>
-          <figure className='FiguraHall'>
-            <Image src='/images/map.png' width={36} height={36}  alt='mapa'/> 
-              <figcaption>Endereço</figcaption>              
-            </figure>
-            </a>
+           
         {modal && 
         <div style={{ width:'50vw', height:'35vh', backgroundColor:'rgb(1000,1000,1000, 0.9)', position:"absolute", top:'50%', zIndex:'1'}}>
               <h1>Endereço</h1>
