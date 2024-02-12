@@ -25,8 +25,7 @@ export default function Agenda() {
          <p>
          A história da igreja é baseada nisso: uma visão para um ministério apostólico que entende que, a partir do ganhar, consolidar e discipular, desenvolvendo um trabalho sobre a vida do novo cristão ao longo da sua vida em Deus,
           ele descobrirá seus dons espirituais. O apostólico compreende os cinco dons ministeriais: apóstolos, profetas, evangelistas, pastores e mestres (Efésios 4:11-13). 
-          A partir desses cinco ministérios, entendemos que uma igreja precisa trabalhar esse chamado sobre a vida do discípulo.</p>
-        
+          A partir desses cinco ministérios, entendemos que uma igreja precisa trabalhar esse chamado sobre a vida do discípulo.</p>    
   </section>
     </main>
   );

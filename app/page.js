@@ -1,18 +1,24 @@
 'use client'
-import React, { useEffect, useState } from 'react'
+import React, { createElement, useEffect, useState } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 import styles from './styles/main.css'
+import Modal from './components/modal'
 export default function Home() {
   const [isOpen, setIsOpen] = useState(false)
   const [isLoading, setIsLoading] = useState(true)
-    useEffect(() =>{ setIsLoading(false)},[])
+  const [modal, setModal] = useState(false)
+    useEffect(() =>{ 
+      const time = setTimeout(() =>{setModal(true)}, 2000)
+  
+    },[])
+
 
   return (
     <>
-  {isLoading? (<div className='loader'></div>): (
+ 
       <main className='corpo'>
-     
+        {modal && <Modal setModal={setModal}/>}
         <figure className='Figura'>
           <Image className='Images' src='/images/logo1.jpg' width={200} height={200} alt='Logo Bethesda' />
         <figure> 
@@ -67,7 +73,6 @@ export default function Home() {
         </nav>
           
       </main>
-)}
     </>
   )
 }
